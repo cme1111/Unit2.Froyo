@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+#froyo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#froyo-form label {
+  margin-bottom: 0.5em;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
