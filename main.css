@@ -2,22 +2,48 @@
   box-sizing: border-box;
 }
 
-#froyo-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#froyo-form label {
-  margin-bottom: 0.5em;
-}
-
 body {
-  width: 100vw;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+#froyo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+}
+
+#froyo-form label {
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+#froyo-form button {
+  text-align: center;
+}
+
+#froyo-form textarea {
+  width: 100%;
+  height: 10em;
+}
+
+table#order-summary {
+  width: 100%;
+  text-align: left;
 }
